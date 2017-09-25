@@ -6,7 +6,9 @@ import org.junit.Test;
 import cn.itcast.service.IUserService;
 
 public class ClientTest {
-
+	public void f1(){
+		System.out.println("123");
+	}
 	@Test
 	public void testClient(){
 		//1.创建一个jaxws的代理工厂类对象
